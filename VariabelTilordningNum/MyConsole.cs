@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gouldavan
+namespace NumbersAndVoid
 {
     internal class MyConsole
     {
@@ -22,10 +22,11 @@ namespace gouldavan
                 return sum;
             }
 
-        public static string Nothing()
+        public static void Nothing()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("This Method does basically nothing");
-            return String.Empty;
+            //return String.Empty;
         }
         
 
